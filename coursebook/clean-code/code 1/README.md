@@ -28,7 +28,6 @@
 
 <div class="customSearch" style="border:0px solid;margin:-20px;width:400px;height:auto;">
 
-<gcse:search enableAutoComplete="true"></gcse:search>
 </div>
 <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
 <i class="material-icons">share</i>
@@ -94,9 +93,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 <div id="bottom_ad_zero_google" class="mdl-cell mdl-cell--6-col mdl-cell--hide-phone">
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="4616214717"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 <div id="bottom_ad_one_amazon-cpm" class="mdl-cell mdl-cell--6-col mdl-cell--hide-phone">
 
@@ -106,9 +102,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 <div id="bottom_ad_zero_amazon" class="mdl-cell mdl-cell--hide-desktop">
 
 <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="9888990169"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 </div>
 <div id="disqus_thread"></div>
@@ -120,25 +113,16 @@ TODO(someone): Check that we're using this appropriately under the license.
 <div id="sol_ad_zero" style="margin-bottom: 20px">
 
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2153208817642134" data-ad-slot="1236474527" data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 
 
 <div id="sol_ad_two" style="width:300px;height:600px;margin-bottom: 20px">
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="6376961513"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 <div id="sol_ad_three" style="margin-bottom: 20px">
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="6965701915"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 </div>
 </div>
@@ -151,115 +135,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 <script src="/assets/mdl/material.min.js"></script>
 <link rel="stylesheet" href="/assets/prism.css" />
 <script src="/assets/prism.js"></script>
-
-
-<script>
-window.onload = function() {
-//var old_links = document.getElementById("np").style.display = "none";
-var links = document.querySelector("ul.nav.nav-list").childNodes;
-var parentDiv = document.querySelector(".np");
-var parentDiv_bottom = document.querySelector(".np_bottom");
-var node = document.createElement("span"); 
-var node_bottom = document.createElement("span");
-node.setAttribute("class","previousNext");
-node_bottom.setAttribute("class","previousNext_bottom");
-parentDiv.appendChild(node);
-parentDiv_bottom.appendChild(node_bottom);
-for (var i=0; i < links.length; i++) {
-if(links[i].getAttribute("class")!=="nav-header" && links[i].children[0].getAttribute('href')===window.location.pathname){
-if(links[i-1].getAttribute("class")!=="nav-header"){
-var newLink = document.createElement("a");
-newLink.setAttribute("href",links[i-1].children[0].getAttribute("href"));
-var icon = document.createElement("i");
-icon.setAttribute("class","material-icons");
-icon.style.marginLeft = '40px';
-icon.style.color = '#fff';
-icon.style.verticalAlign = 'middle';
-var previousTxt = document.createTextNode('skip_previous');
-icon.appendChild(previousTxt);
-newLink.appendChild(icon);
-node.appendChild(newLink);
-//for bottom
-var newLink_bottom = document.createElement("a");
-newLink_bottom.setAttribute("href",links[i-1].children[0].getAttribute("href"));
-var previousTxt_bottom = document.createTextNode('Previous');
-newLink_bottom.appendChild(previousTxt_bottom);
-node_bottom.appendChild(newLink_bottom);
-}
-else if (links[i-1].getAttribute("class")==="nav-header"){
-var newLink = document.createElement("a");
-newLink.setAttribute("href",links[i-2].children[0].getAttribute("href"));
-var icon = document.createElement("i");
-icon.setAttribute("class","material-icons");
-icon.style.marginLeft = '40px';
-icon.style.color = '#fff';
-icon.style.verticalAlign = 'middle';
-var previousTxt = document.createTextNode('skip_previous');
-icon.appendChild(previousTxt);
-newLink.appendChild(icon);
-node.appendChild(newLink);
-//for bottom
-var newLink_bottom = document.createElement("a");
-newLink_bottom.setAttribute("href",links[i-2].children[0].getAttribute("href"));
-var previousTxt_bottom = document.createTextNode('Previous');
-newLink_bottom.appendChild(previousTxt_bottom);
-node_bottom.appendChild(newLink_bottom);
-}
-if(links[i+1].getAttribute("class")!=="nav-header") {
-var newLink = document.createElement("a");
-newLink.setAttribute("href",links[i+1].children[0].getAttribute("href"));
-var icon = document.createElement("i");
-icon.setAttribute("class","material-icons");
-icon.style.marginLeft = '30px';
-icon.style.color = '#fff';
-icon.style.verticalAlign = 'middle';
-var nextTxt = document.createTextNode('skip_next');
-icon.appendChild(nextTxt);
-newLink.appendChild(icon);
-node.appendChild(newLink);
-//for bottom
-var newLink_bottom = document.createElement("a");
-newLink_bottom.setAttribute("href",links[i+1].children[0].getAttribute("href"));
-var NextTxt_bottom = document.createTextNode('Next');
-newLink_bottom.appendChild(NextTxt_bottom);
-node_bottom.appendChild(newLink_bottom);
-}
-else if (links[i+1].getAttribute("class")==="nav-header") {
-var newLink = document.createElement("a");
-newLink.setAttribute("href",links[i+2].children[0].getAttribute("href"));
-var icon = document.createElement("i");
-icon.setAttribute("class","material-icons");
-icon.style.marginLeft = '30px';
-icon.style.color = '#fff';
-icon.style.verticalAlign = 'middle';
-var nextTxt = document.createTextNode('skip_next');
-icon.appendChild(nextTxt);
-newLink.appendChild(icon);
-node.appendChild(newLink);
-//for bottom
-var newLink_bottom = document.createElement("a");
-newLink_bottom.setAttribute("href",links[i+2].children[0].getAttribute("href"));
-var NextTxt_bottom = document.createTextNode('Next');
-newLink_bottom.appendChild(NextTxt_bottom);
-node_bottom.appendChild(newLink_bottom);
-}
-}
-}
-var prenext = document.querySelector("span.previousNext");
-var cln = prenext.cloneNode(true);
-}	
-</script>
-<script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('flexbar', 'CK7DCK7L', 'placement:w3resourcecom');
-  	}
-})();
-</script>
-
-
 
 <div style="position: fixed; z-index: -9999; left: -9999px;">
 <a href="http://www.ankaradasat.com/" title="ankara escort">ankara escort</a>
