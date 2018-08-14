@@ -4,7 +4,11 @@ First: **READ THIS**: https://github.com/ryanmcdermott/clean-code-javascript#cle
 
 ## Activity 1
 
-1) Each team gets one algorithm and one implementation of it. The implementation is uncommented. Teams read the algorithm and try to add comments and documentation to clarify. 
+1) Form 4 teams. Each team gets one algorithm and one implementation of it. The implementation is uncommented.
+
+1) Read the `README.md` and try to understand the algorithm. 
+Then, try to rename variables, add documentation, and add comments to clarify the code.
+Check in the commented code as `with_comments.js`.
 
 1) Next, each team gets 10 minutes to read *another team's* uncommented algorithm implementation. They have to try to write up an explanation
 
