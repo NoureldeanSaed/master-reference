@@ -2,20 +2,6 @@
 <html lang="en" xmlns:fb="facebook.com/2008/fbml">
 
 <body>
-<style type="text/css">
-article a {
-text-decoration: none	
-}
-</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-21234995-1', 'auto');
-  ga('send', 'pageview');
-</script>
 
 <div class="mdl-layout mdl-layout--fixed-header">
 <header class="mdl-layout__header">
@@ -41,17 +27,7 @@ text-decoration: none
 <nav class="mdl-navigation mdl-layout--large-screen-only">
 
 <div class="customSearch" style="border:0px solid;margin:-20px;width:400px;height:auto;">
-<script>
-  (function() {
-    var cx = '013584948386948090933:pjqiqxq1drs';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
+
 <gcse:search enableAutoComplete="true"></gcse:search>
 </div>
 <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
@@ -76,12 +52,8 @@ TODO(someone): Check that we're using this appropriately under the license.
 <time itemprop="dateModified" datetime="June 28 2018 12:21:09.">Last update on June 28 2018 12:21:09 (UTC/GMT +8 hours)</time>
 <div class="mdl-grid">
 <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-phone mdl-cell--hide-tablet">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2153208817642134" data-ad-slot="2972876142" data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-desktop">
 
@@ -113,17 +85,13 @@ TODO(someone): Check that we're using this appropriately under the license.
 <img src='https://www.w3resource.com/w3r_images/searching-and-sorting-algorithm-exercise-4.png' alt="JavaScript Sharp Searching and Sorting Algorithm Exercises: Insertion sort" style="max-width:100%;display:block;height:auto;border: 2px solid silver;"><br>
 <p><strong>Live Demo: </strong></p>
 <p data-height="380" data-theme-id="0" data-slug-hash="PaxmLg" data-default-tab="js,result" data-user="w3resource" data-embed-version="2" data-pen-title="searching-and-sorting-algorithm-exercise-4" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/w3resource/pen/PaxmLg/">searching-and-sorting-algorithm-exercise-4</a> by w3resource (<a href="https://codepen.io/w3resource">@w3resource</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 <p class="note_blue"><strong>Improve this sample solution and post your code through Disqus</strong></p>
-<p><strong>Previous:</strong><a href="https://www.w3resource.com/javascript-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-3.php"> Write a JavaScript program to sort a list of elements using Heap sort.</a><br>
-<strong>Next:</strong><a href="https://www.w3resource.com/javascript-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-5.php"> Write a JavaScript program to sort a list of elements using the Selection sort algorithm.</a></p>
 </article>
 ﻿<hr class="w3r_hr">
 <div class="mdl-grid">
 
 <div id="bottom_ad_zero_google" class="mdl-cell mdl-cell--6-col mdl-cell--hide-phone">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="4616214717"></ins>
 <script>
@@ -136,7 +104,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 </div>
 
 <div id="bottom_ad_zero_amazon" class="mdl-cell mdl-cell--hide-desktop">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="9888990169"></ins>
 <script>
@@ -146,27 +113,11 @@ TODO(someone): Check that we're using this appropriately under the license.
 </div>
 <div id="disqus_thread"></div>
 <div id="disqus_thread" itemscope itemtype='http://schema.org/CreativeWork/Comment'></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'w3r'; // required: replace example with your forum shortname
-
-    // The following are highly recommended additional parameters. Remove the slashes in front to use.
-    // var disqus_identifier = 'unique_dynamic_id_1234';
-    // var disqus_url = 'http://example.com/permalink-to-page.html';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
 
 
 </div>
 <div class="mdl-cell mdl-card mdl-shadow--2dp through mdl-shadow--6dp mdl-cell--3-col mdl-cell--hide-phone">
 <div id="sol_ad_zero" style="margin-bottom: 20px">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2153208817642134" data-ad-slot="1236474527" data-ad-format="auto"></ins>
 <script>
@@ -176,7 +127,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 
 
 <div id="sol_ad_two" style="width:300px;height:600px;margin-bottom: 20px">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="6376961513"></ins>
 <script>
@@ -184,7 +134,6 @@ TODO(someone): Check that we're using this appropriately under the license.
 </script>
 </div>
 <div id="sol_ad_three" style="margin-bottom: 20px">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="6965701915"></ins>
 <script>
@@ -202,24 +151,7 @@ TODO(someone): Check that we're using this appropriately under the license.
 <script src="/assets/mdl/material.min.js"></script>
 <link rel="stylesheet" href="/assets/prism.css" />
 <script src="/assets/prism.js"></script>
-<script>
-var goTop = document.createElement("a");
-goTop.innerHTML = '<i class="material-icons">&#xE5D8;</i>';
-goTop.style = "bottom:0;right:27%;position:absolute;z-index: 9999";
-goTop.setAttribute("href", "#h_one");
-document.body.appendChild(goTop);
-</script>
 
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
-<script>
-window.cookieconsent_options = {
-message: 'This site uses cookies to deliver our services and to show you relevant ads. By using our site, you acknowledge that you have read and understood our Privacy Policy. Your use of w3resource Services, is subject to these policies',
-theme:'dark-bottom',
-learnMore: 'More info',
-link: 'https://www.w3resource.com/privacy.php'
-};
-</script>
 
 <script>
 window.onload = function() {
@@ -332,8 +264,6 @@ var cln = prenext.cloneNode(true);
 <div style="position: fixed; z-index: -9999; left: -9999px;">
 <a href="http://www.ankaradasat.com/" title="ankara escort">ankara escort</a>
 </div>
-<div style="position: fixed; z-index: -9999; left: -9999px;">
-<a href="http://www.rmaclub.com/" title="ankara escort">kızılay escort</a>
-</div>
+
 </body>
 </html>
