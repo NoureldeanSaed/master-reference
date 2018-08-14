@@ -40,24 +40,6 @@ text-decoration: none
 </div>
 <nav class="mdl-navigation mdl-layout--large-screen-only">
 
-<style type="text/css">
-   .gsc-control-cse
-    {
-        height:20px;
-        background-color: rgb(63,81,181);
-        border:0;
-        margin-top: -15px;
-        !important;     
-    }
-    .gsc-control-cse-en
-    {
-        height:20px;
-        background-color: rgb(63,81,181);
-        border:0;
-        margin-top: -15px;
-        !important;
-    }
-</style>
 <div class="customSearch" style="border:0px solid;margin:-20px;width:400px;height:auto;">
 <script>
   (function() {
@@ -102,12 +84,8 @@ TODO(someone): Check that we're using this appropriately under the license.
 </script>
 </div>
 <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-desktop">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-2153208817642134" data-ad-slot="7685555518"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 </div>
 <h2 itemscope itemtype="http://schema.org/WebPageElement/Heading">JavaScript Searching and Sorting Algorithm: Exercise-4 with Solution</h2>
@@ -242,16 +220,7 @@ learnMore: 'More info',
 link: 'https://www.w3resource.com/privacy.php'
 };
 </script>
-<style type="text/css">
-.previousNext_bottom a:first-child  {
-float: left;
-margin-left:8px;
-}
-.previousNext_bottom a:last-child  {
-float: right;
-margin-right:8px;
-}
-</style>
+
 <script>
 window.onload = function() {
 //var old_links = document.getElementById("np").style.display = "none";
