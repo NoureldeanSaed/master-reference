@@ -1,3 +1,5 @@
+// To run, call:
+//  node without_comments.js
 function func(arr)
 {
   for (var i = 1; i < arr.length; i++)
