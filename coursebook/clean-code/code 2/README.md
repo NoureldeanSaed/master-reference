@@ -2,19 +2,8 @@
 <html lang="en" xmlns:fb="facebook.com/2008/fbml">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link type="text/css" rel="stylesheet" href="/assets/mdl/material.min.css" />
-<link type="text/css" rel="stylesheet" href="/assets/mdl/additional.css" />
-<link rel="shortcut icon" href="//www.w3resource.com/images/favicon.png">
-<title>JavaScript: Sort a list of elements using the Selection sort - w3resource</title>
-
 </head>
 <body>
-<style type="text/css">
-article a {
-text-decoration: none	
-}
-</style>
 
 <div class="mdl-layout mdl-layout--fixed-header">
 <header class="mdl-layout__header">
@@ -44,12 +33,11 @@ text-decoration: none
 
 
 
-
 <div class="mdl-grid">
 <div class="mdl-cell mdl-card mdl-shadow--2dp through mdl-shadow--6dp mdl-cell--9-col">
 <article itemscope temtype="http://schema.org/TechArticle">
 <img src='https://www.w3resource.com/w3r_images/javascript-exercises.gif' alt="JavaScript Exercises" />
-<h1 itemscope itemtype="http://schema.org/WebPageElement/Heading" class="heading" id="h_one"> JavaScript Searching and Sorting Algorithm: Selection sort </h1>
+
 <time itemprop="dateModified" datetime="June 28 2018 12:21:09.">Last update on June 28 2018 12:21:09 (UTC/GMT +8 hours)</time>
 <div class="mdl-grid">
 <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-phone mdl-cell--hide-tablet">
