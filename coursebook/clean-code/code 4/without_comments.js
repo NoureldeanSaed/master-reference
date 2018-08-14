@@ -16,8 +16,4 @@ function a_thing(arr)
     return arr;
 }
 
-var array = [3, 0, 2, 5, -1, 4, 1];
-console.log("Original Array Elements");
-console.log(array);
-console.log("Sorted Array Elements");
-console.log(a_thing(array));
+console.log(a_thing([3, 0, 2, 5, -1, 4, 1]));
