@@ -1,6 +1,10 @@
 # Clean code
 
-First: **READ THIS**: https://github.com/ryanmcdermott/clean-code-javascript#clean-code-javascript
+First: **SKIM THIS**: https://github.com/ryanmcdermott/clean-code-javascript#clean-code-javascript
+
+Then, **SKIM THIS**: https://google.github.io/styleguide/jsguide.html
+
+Lastly, **READ THIS**: https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83
 
 ## Activity 1
 
